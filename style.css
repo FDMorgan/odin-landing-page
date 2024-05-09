@@ -14,7 +14,8 @@ body {
 
 .header,
 .hero,
-.image, 
+.image,
+.footer,
 a {
     color: #f9faf8;
 }
@@ -149,6 +150,12 @@ a {
     max-height: 30px;
 }
 
+.footer {
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 button {
     max-width: 100px;
