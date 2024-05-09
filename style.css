@@ -34,7 +34,6 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-top: 50px;
     margin: 70px;
 }
 
@@ -118,6 +117,36 @@ a {
     margin-top: -10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.cta-container {
+    min-height: 20vh;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    min-height: 130px;
+    min-width: 900px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #f9faf8;
+}
+
+.cta-text p {
+    margin-top: -20px;
+}
+
+.cta button {
+    flex: 1;
+    border: 2px solid #f9faf8;
+    max-height: 30px;
 }
 
 
